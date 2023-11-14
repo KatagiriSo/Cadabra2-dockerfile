@@ -24,10 +24,10 @@ xhost + <YOUR_IP_ADDRESS>
 
 ```zsh
 docker run -e DISPLAY=<YOUR_IP_ADDRESS>:0 -v /tmp/.X11-unix:/tmp/.X11-unix --name cadabra-new cadabra-image cadabra2-gtk
-```zsh
+```
 
 mount
 
-```
+```zsh
 docker run -v <USERFolerPath>:/containerfolder -e DISPLAY=<YOUR_IP_ADDRESS>:0 -v /tmp/.X11-unix:/tmp/.X11-unix --name cadabra-new cadabra-new cadabra2-gtk
 ```
